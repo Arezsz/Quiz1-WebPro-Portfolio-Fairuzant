@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fairuzant | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a class="nav-link active" href="./">Homepage</a></li>
+      <li><a class="nav-link" href="profile/">Profile</a></li>
+      <li><a class="nav-link" href="hometown/">Hometown</a></li>
+      <li><a class="nav-link" href="food/">Local Food</a></li>
+      <li><a class="nav-link" href="tourist/">Tourist Places</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-container">
+      <video class="hero-video" autoplay loop muted playsinline>
+        <source src="assets/img/itsunesa.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-gradient"></div>
+      <div class="hero-content">
+        <div class="hero-grid">
+          <div>
+            <div class="hero-avatar-wrapper">
+              <img src="assets/img/profile.jpeg" alt="Muhammad Fairuz Ananta" class="hero-avatar"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="hero-avatar-placeholder" style="display:none;">FA</div>
+            </div>
+            <h1 class="hero-title">Fairuzant</h1>
+          </div>
+          <div>
+            <p class="hero-desc">Muhammad Fairuz Ananta, mahasiswa Teknik Informatika ITS yang memiliki ketertarikan
+              pada robotika, pesawat terbang, dan pemrograman.</p>
+            <a class="cta-button" href="profile/">
+              Jelajahi Profil
+              <span class="cta-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
